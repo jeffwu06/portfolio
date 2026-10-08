@@ -13,11 +13,26 @@
     <article class="project-content">
       <div class="eyebrow">Project 04</div>
       <h1>Flight Simulator</h1>
-      <p class="intro">Developed a flight dynamics simulator in MATLAB’s Simulink to simulate real-time flight data, including 6-DOF orientation, velocity, and real-time latitude, longitude, and altitude.</p>
-      <div class="project-image-placeholder">Add a hero image or video here</div>
+      <p class="intro">The goal of this project was to design a flight physics simulator for a Boeing 737. This involved calculating the plane’s 6-dof, velocity, and GPS-coordinates. Physical controls such as a joystick and throttle were also implemented along with the software FlightGear to allow for a visual interactable interface.</p>
       <section class="details-grid">
-        <div class="detail-card"><h2>Overview</h2><p>Implemented a physical throttle and joystick to control the plane’s ailerons, elevators, rudders, and engine thrust in real time.</p></div>
-        <div class="detail-card"><h2>Process & results</h2><p>Created a realistic visual environment of the simulator by linking Simulink to FlightGear, creating an integrated 3D interface system.</p></div>
+        <div class="detail-card" style="text-align: center;">
+          <h2 style="text-align: center; font-size: 2rem;">Major skills</h2>
+          <div style="display: flex; justify-content: space-around; align-items: center; gap: 1rem; font-size: 1.25rem; font-weight: bold; margin-top: 1rem;">
+            <span>MATLAB - Simulink</span>
+            <span>FlightGear</span>
+            <span>Documentation &amp; Research</span>
+          </div>
+        </div>
+        <section class="image-carousel" aria-label="Flight Simulator image carousel">
+          <h2>Project Gallery</h2>
+          <div class="carousel-track">
+            <div class="carousel-slide"><img src="https://lh3.googleusercontent.com/d/1lVQ-1gTrv2NPAA7FT-0GteNIbOTwVqK5" alt="Flight Simulator Photo 1"></div>
+            <div class="carousel-slide"><img src="https://lh3.googleusercontent.com/d/1QsnyifMpvP_pJePLXJufkZuaJi-mYTwR" alt="Flight Simulator Photo 2"></div>
+            <div class="carousel-slide"><img src="https://lh3.googleusercontent.com/d/1rD0hz2B_mtdhJuCenoVNtwKVt34U-dOE" alt="Flight Simulator Photo 3"></div>
+          </div>
+        </section>
+        <div class="detail-card"><h2>Process</h2><p>To calculate the 6-dof, the individual formulas for the position and orientation vectors were isolated from their respective matrices.</p><p>A map diagram of each formula and their respective variables were identified, then implemented in MATLAB’s Simulink.</p><p>Furthermore, the plane’s aerodynamic dimensions and characteristics (mass, span, chord length, etc.) were all found via official sources.</p></div>
+        <div class="detail-card"><h2>Outcome</h2><p>The final product was able to successfully replicate the plane’s physics during flight. To confirm the validity of our results, a graph was generated for various values such as Velocity vs. Time, Altitude vs. time, and compared to the correct results from the assignment document.</p><p>This project taught me how to use MATLAB’s Simulink and the process of calculating aerodynamic variables.</p></div>
       </section>
     </article>
   </main>

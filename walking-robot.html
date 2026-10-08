@@ -13,11 +13,70 @@
     <article class="project-content">
       <div class="eyebrow">Project 02</div>
       <h1>Walking Robot</h1>
-      <p class="intro">Add a short introduction to the project here. Describe its purpose, constraints, and your role.</p>
-      <div class="project-image-placeholder">Add a hero image or video here</div>
+      <p class="intro">The goal of this project was to design a linkage mechanism connected to a gearbox capable of free movement.</p>
       <section class="details-grid">
-        <div class="detail-card"><h2>Overview</h2><p>Add project background, goals, and a concise summary of the work.</p></div>
-        <div class="detail-card"><h2>Process & results</h2><p>Add key design decisions, testing notes, outcomes, and any links you want to share.</p></div>
+        <div class="detail-card" style="text-align: center;">
+          <h2 style="text-align: center; font-size: 2rem;">Major skills</h2>
+          <div style="display: flex; justify-content: space-around; align-items: center; gap: 1rem; font-size: 1.25rem; font-weight: bold; margin-top: 1rem;">
+            <span>CATIA v5 - CAD &amp; FEA Simulations</span>
+            <span>MATLAB - Displacement, Velocity, &amp; Linkage Simulations</span>
+            <span>Manufacturing: Soldering, 3D Printing, &amp; Laser Cutting</span>
+            <span>Documentation &amp; Research</span>
+          </div>
+        </div>
+        <section class="image-carousel" aria-label="Walking Robot image carousel">
+          <h2>Project Gallery</h2>
+          <div class="carousel-track">
+            <div class="carousel-slide">
+              <figure style="position: relative; margin: 0; width: 500px; height: 500px;">
+                <img src="https://lh3.googleusercontent.com/d/1oYB7Si8r_MAokEy92JuB-VfHi7_EigXo" alt="Walking Robot Photo 1" style="width: 500px; height: 500px; object-fit: contain;">
+                <figcaption style="position: absolute; bottom: 0; width: 100%; background: rgba(0,0,0,0.7); color: #fff; text-align: center; padding: 8px; box-sizing: border-box;">Final Design of Robot</figcaption>
+              </figure>
+            </div>
+            <div class="carousel-slide">
+              <figure style="position: relative; margin: 0; width: 500px; height: 500px;">
+                <img src="https://lh3.googleusercontent.com/d/1mJ7O-9hBEAR8zFv3dgrfQDQ_iMHalINU" alt="Walking Robot Photo 2" style="width: 500px; height: 500px; object-fit: contain;">
+                <figcaption style="position: absolute; bottom: 0; width: 100%; background: rgba(0,0,0,0.7); color: #fff; text-align: center; padding: 8px; box-sizing: border-box;">Sketch of Linkage Mechanism</figcaption>
+              </figure>
+            </div>
+            <div class="carousel-slide">
+              <figure style="position: relative; margin: 0; width: 500px; height: 500px;">
+                <img src="https://lh3.googleusercontent.com/d/1S-5yYkPH-L_F6MM4M86_SSqRwD8X936r" alt="Walking Robot Photo 3" style="width: 500px; height: 500px; object-fit: contain;">
+                <figcaption style="position: absolute; bottom: 0; width: 100%; background: rgba(0,0,0,0.7); color: #fff; text-align: center; padding: 8px; box-sizing: border-box;">Laser Cutting File</figcaption>
+              </figure>
+            </div>
+            <div class="carousel-slide">
+              <figure style="position: relative; margin: 0; width: 500px; height: 500px;">
+                <img src="https://lh3.googleusercontent.com/d/1GSByJG5XFmyh2PI_e_CDi6jiiLOXzbAJ" alt="Walking Robot Photo 4" style="width: 500px; height: 500px; object-fit: contain;">
+                <figcaption style="position: absolute; bottom: 0; width: 100%; background: rgba(0,0,0,0.7); color: #fff; text-align: center; padding: 8px; box-sizing: border-box;">Assembled Design in CAD</figcaption>
+              </figure>
+            </div>
+            <div class="carousel-slide">
+              <figure style="position: relative; margin: 0; width: 500px; height: 500px;">
+                <iframe
+                  src="https://drive.google.com/file/d/1_l2kH3aZ88UUXRpbhuyAsnaX-L1M3-hw/preview"
+                  style="width: 500px; height: 500px; border:0;"
+                  allow="autoplay; fullscreen"
+                  allowfullscreen>
+                </iframe>
+                <figcaption style="position: absolute; bottom: 0; width: 100%; background: rgba(0,0,0,0.7); color: #fff; text-align: center; padding: 8px; box-sizing: border-box; pointer-events: none;">Walking Robot Video</figcaption>
+              </figure>
+            </div>
+            <div class="carousel-slide">
+              <figure style="position: relative; margin: 0; width: 500px; height: 500px;">
+                <iframe
+                  src="https://drive.google.com/file/d/1_SgWIzYLZCk34NkKtXp4xlSWTSC-nGfg/preview"
+                  style="width: 500px; height: 500px; border:0;"
+                  allow="autoplay; fullscreen"
+                  allowfullscreen>
+                </iframe>
+                <figcaption style="position: absolute; bottom: 0; width: 100%; background: rgba(0,0,0,0.7); color: #fff; text-align: center; padding: 8px; box-sizing: border-box; pointer-events: none;">MATLAB Simulation</figcaption>
+              </figure>
+            </div>
+          </div>
+        </section>
+        <div class="detail-card"><h2>Process</h2><p>To start, numerous designs were investigated. Since there were no restrictions on the number of legs, we decided to choose between two, four, and six-legged based movements. Since the criteria for the robot was for it to be free standing and as light as possible, we decided that the four legged design would be the best approach.</p><p>A first design was drawn and recreated within CATIA v5 to test the linkage movement. Afterwards, MATLAB was used to create the displacement, velocity, and linkage simulations to help optimize the linkage lengths and joint positions.</p><p>Lastly, manufacturing involved printing out the individual CAD components from CATIA and connecting the gearbox to the printed components. A combination of laser cut hardboard and 3D printed components were used for the design. Lastly, a battery was connected to the motorbox via soldering.</p><p>Through testing, we found a few errors with our design. One of them was that the torque was not strong enough to rotate the linkages. We fixed this issue by adjusting the gear ratios to allow for more torque generated by the motor. Another issue found was the robot not walking straight. The reason for this was that the legs were not aligned properly, and the centre of mass was not in the middle of the robot.</p><p>After these changes, the robot was finally capable of moving.</p></div>
+        <div class="detail-card"><h2>Outcome</h2><p>The final design placed 5th in the overall competition of around 32 teams. This project helped me reinforce numerous skills such as CAD, MATLAB, and designing linkages. Not only that, manufacturing skills such as 3D printing, laser cutting, and soldering.</p></div>
       </section>
     </article>
   </main>
